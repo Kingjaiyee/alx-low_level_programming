@@ -1,19 +1,22 @@
 #include "main.h"
 
 /**
- * main - function to print
- *
- * Return: 0
- */
+* main - Lanzador
+*
+* Return: Always 0
+*
+*/
+
 int main(void)
 {
-	char holberton[9] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
-	unsigned int c;
-
-	for (c = 0; c < sizeof(holberton); c++)
-	{
-		_putchar(holberton[c]);
-	}
-_putchar('\n');
-return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
