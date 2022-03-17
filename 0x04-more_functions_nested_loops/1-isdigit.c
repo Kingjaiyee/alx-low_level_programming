@@ -1,15 +1,22 @@
 #include "main.h"
+
 /**
- * _isdigit - function that checks for uppercase character.
- * @c: the int for the paramaters of my function
- * Return: 0
+ * _isupper - checks for lowercase character.
+ * @c: caracter recibo por main.
+ * Return: 1 if c is uppercase
  */
-int _isdigit(int c)
+int _isupper(int c)
 {
-	if (c >= 48 && c <= 57)
+	if (c >= 'A' && c <= 'Z')
 	{
-	return (1);
+		return (1);
+	}
+	else if (c <= 'z')
+	{
+		return (0);
 	}
 	else
-	return (0);
+	{
+		return (0);
+	}
 }
